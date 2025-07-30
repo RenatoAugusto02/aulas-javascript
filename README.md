@@ -1,5 +1,3 @@
-# aulas-javascript
-
 Introdução ao JavaScript para programação web.
 
 ## Sobre a linguagem
@@ -21,3 +19,11 @@ Recursos interativos em geral, como por exemplo:
 - Recursos avançados de formulario (validação mais profissional, integração com API)
 - Interações avançadas (manipulaçaõ de teclado, mouse, gesto etc)
 
+---
+## Sobres arrays
+
+Arrays são estruturas de dados **indexados**, taambém conhecidos como vetores ou matrizes.
+
+Na prática, um array é uma lista de dados sequenciais, e cada dado é armazenado em uma posição/índice do array.
+
+**Obs.:** a contagem dos índices **sempre indica em ZERO.**
