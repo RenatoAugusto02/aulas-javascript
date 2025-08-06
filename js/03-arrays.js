@@ -17,10 +17,22 @@ console.log(coisas [4]);
 /*Exercicios*/
 const atividade = ["Pericles", "Kleberiano", "Zezão", "GTA5", "Futebol", "Fifa 20", "Pes 18", "Sambinha"];
 
-
 console.log(atividade[1]);
 console.log(atividade[4]);
 console.log(atividade[7]);
 
 console.log(`Gosto de ouvir as músicas do ${atividade[1]} e do ${atividade[2]}`);
 
+
+/*Matriz de 2 dimenssões*/ 
+const tecnologias = [
+    ["HTML", "CSS", "JAVASCRIPT"],
+    ["Figma", "Photoshop"],
+    ["PHP", "Node.js", "SQL", "Express"]
+];
+
+//console.log(tecnologias);
+
+console.log(tecnologias[0][2]);
+console.log(tecnologias[1][0]);
+console.log(tecnologias[2][3]);
