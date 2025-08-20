@@ -57,4 +57,27 @@ console.log(livros);
 
 console.log(livros[2].titulo);
 
+// Atividade
+const aluno = {
+    nome_completo: "João da silva",
+    data_de_nascimento: "6/9/69",
+    lista_de_telefone:[
+        "(11)9669-6011",
+        "+55 11 4002-8922"
+    ],
+
+    endereco:{
+        rua: "Rua Nicolau",
+        numero: "69",
+        bairro: "nova união"
+    }
+    
+}
+
+console.log(`Nome: ${aluno.nome_completo}`);
+console.log(`Telefone celular: ${aluno.lista_de_telefone[1]}`);
+console.log(`Bairro: ${aluno.endereco.bairro}`);
+console.log(`O aluno mora na rua ${aluno.endereco.rua}, numerro ${aluno.endereco.}`);
+
+
 
