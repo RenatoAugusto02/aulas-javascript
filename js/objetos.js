@@ -11,11 +11,11 @@ const pessoa = {
 
 console.log(pessoa);
 
-// Acessamos as prioridades usando NomeDoObjeto.NomeDaPrioridade
+// Acessamos as propriedades usando NomeDoObjeto.NomeDaPropriedade
 console.log(`O ${pessoa.nome} tem ${pessoa.idade} anos de idade`);
 
 // Exemplo 2: objeto com array
-console.log("\nExemplo2\n");
+console.log("\nExemplo 2\n");
 
 const livro = {
     titulo: "Senhor dos Anéis",
@@ -30,21 +30,21 @@ const livro = {
 console.log(livro);
 console.log(livro.titulo);
 
-/*Para acessar algum dos volumes, primeiro passamos pela prioridade (volume)usando 'ponto' e, chegando nela, usamos os 'colchetes' com índices pois se trata de um array */
+/* Para acessar algum dos volumes, primeiro passamos pela propriedade 'volumes' usando o ponto, e depois usamos os colchetes com o índice para acessar o elemento do array */
 console.log(`Meu livro preferido é ${livro.volumes[1]}`);
 
 //  Exemplo 3: array de objetos
-console.log("\nExemplo\n");
+console.log("\nExemplo 3\n");
 
 const livros = [
     {
         titulo: "O assassinato no Expresso do Oriente",
-        autor: "Agatha Cristie"
+        autor: "Agatha Christie"
     },
 
     {
         titulo: "Crepúsculo",
-        autor: "Stephanie Myers"
+        autor: "Stephenie Meyer"
     },
 
     {
@@ -77,7 +77,7 @@ const aluno = {
 console.log(`Nome: ${aluno.nome_completo}`);
 console.log(`Telefone celular: ${aluno.lista_de_telefone[1]}`);
 console.log(`Bairro: ${aluno.endereco.bairro}`);
-console.log(`O aluno mora na rua ${aluno.endereco.rua}, numerro ${aluno.endereco.}`);
+console.log(`O aluno mora na rua ${aluno.endereco.rua}, numero ${aluno.endereco.numero}`);
 
 
 
